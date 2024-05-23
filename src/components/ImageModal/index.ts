@@ -1,7 +1,13 @@
 import { ReactNode, useState, useEffect } from "react";
-import ReactDOM from "react-dom";
+import { createPortal } from "react-dom";
 
-const Modal = ({ children, open }: { children?: ReactNode }) => {
+const Modal = ({
+  children,
+  open,
+}: {
+  children?: ReactNode;
+  open?: boolean;
+}) => {
   const [isBrowser, setIsBrowser] = useState(false);
 
   useEffect(() => {
@@ -11,13 +17,13 @@ const Modal = ({ children, open }: { children?: ReactNode }) => {
   const modalContent = open ? children : null;
 
   if (isBrowser) {
-    return ReactDOM.createPortal(
-      modalContent,
-      document.getElementById("__modal")
-    );
-  } else {
-    return null;
+    const container = document.getElementById("__modal");
+    if (container) {
+      return createPortal(modalContent, container);
+    }
   }
+
+  return null;
 };
 
 export default Modal;
