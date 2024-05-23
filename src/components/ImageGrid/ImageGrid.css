@@ -1,0 +1,26 @@
+.photos-wrapper {
+  margin: 0 auto 32px auto;
+  width: 100%;
+}
+
+.photos-container {
+  display: grid;
+  gap: 12px;
+  width: 100%;
+}
+
+.photos-container > img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .photos-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photos-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
