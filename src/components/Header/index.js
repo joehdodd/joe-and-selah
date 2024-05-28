@@ -54,6 +54,9 @@ const Header = () => {
         <Link className="text-2xl" href="/about">
           Info
         </Link>
+        <Link className="text-2xl" href="/families">
+          Families
+        </Link>
       </div>
     </header>
   );
