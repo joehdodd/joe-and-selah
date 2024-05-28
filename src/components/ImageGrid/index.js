@@ -130,31 +130,17 @@ const ImageGrid = () => {
         />
       </div>
       <ImageModal open={modalOpen}>
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            right: 0,
-            height: "100vh",
-            width: "100vw",
-            background: "rgba(0, 0, 0, 0.75)",
-          }}
-        >
-          <div
-            style={{
-              height: '100%"',
-              width: "75%",
-              margin: "4rem auto",
-              padding: 32,
-            }}
-            ref={modalRef}
-          >
+        <div className="fixed top-0 right-0 h-[100vh] w-[100vw] bg-black bg-opacity-75">
+          <div className="h-full w-full md:w-[75%] m-auto p-2 md:p-8">
             {selectedImage && (
               <Image
+                ref={modalRef}
                 src={selectedImage}
                 alt="Wedding"
-                width={100}
-                height={100}
+                width={0}
+                height={0}
+                layout="responsive"
+                objectFit="contain"
               />
             )}
           </div>

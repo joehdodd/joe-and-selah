@@ -5,21 +5,21 @@ import React from "react";
 const About = () => {
   return (
     <PageLayout>
-      <div className="pl-16 pr-16">
-        <h2 className="text-[64px] text-italic text-center mb-0">Hello!</h2>
-        <p className="text-[40px] text-center mt-[-1.5rem] mb-4">
+      <div className="pl-2 pr-2 md:pl-16 md:pr-16 pt-4">
+        <h2 className="text-4xl md:text-[64px] text-italic text-center mb-0">Hello!</h2>
+        <p className="text-2xl md:text-[40px] text-center mb-4">
           We&apos;re glad that you found us!
         </p>
         <hr />
-        <div className="pt-8 grid grid-cols-2 gap-8">
+        <div className="pt-8 grid md:grid-cols-2 gap-8">
           <div>
-            <p className="text-2xl text-center mb-2">
+            <p className="text-2xl mb-2">
               We are Chattanooga wedding photographers specializing in intimate,
               documentary style photography for engagements and weddings. We
               love capturing those intimate details of your wedding day that
               will remind you of how special it really was.
             </p>
-            <p className="text-2xl text-center mb-2">
+            <p className="text-2xl mb-2">
               Interested in choosing us as your Chattanooga wedding
               photographers? Send an email to{" "}
               <a href="mailto:info@joeandselah.co">info@joeandselah.co</a> for
