@@ -34,7 +34,6 @@ const Header = () => {
               | Chattanooga Documentary Photographers
             </span>
           </h1>
-          <hr className="hidden md:block mt-[-6px]" />
         </Link>
         {isMobile && (
           <div className="flex items-center">
