@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <style jsx global>{`
         html {
+          color: #333;
           font-family: ${markazi.style.fontFamily};
         }
       `}</style>

@@ -9,9 +9,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <div className="app-wrapper">
-        <Info />
-        <hr />
+      <div className="p-8">
         <ImageGrid />
       </div>
     </>

@@ -7,7 +7,12 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero":
+          "linear-gradient(to right bottom, rgba(0,0, 0, 0.4), rgba(0,0, 0, 0.4)), url('/img/AnnaJoel-Hero.jpg')",
+      },
+    },
   },
   plugins: [],
 };

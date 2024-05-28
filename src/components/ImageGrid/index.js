@@ -35,76 +35,98 @@ const ImageGrid = () => {
 
   return (
     <div className="m-[0 auto 32px auto] w-full">
-      <div className="grid gap-4 w-full">
-        <Image
-          onClick={() => handleImageClick("/img/AnnaJordan-2.jpg")}
-          src="/img/AnnaJordan-2.jpg"
-          alt="Wedding"
-          width={300}
-          height={300}
-        />
+      <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full h-full">
+        <div className="w-full h-ful">
+          <Image
+            onClick={() => handleImageClick("/img/AnnaJordan-2.jpg")}
+            src="/img/AnnaJordan-2.jpg"
+            alt="Wedding"
+            width={0}
+            height={0}
+            layout="responsive"
+            objectFit="contain"
+          />
+        </div>
         <Image
           onClick={() => handleImageClick("/img/AnnaJordan-3.jpg")}
           src="/img/AnnaJordan-3.jpg"
           alt="Wedding"
-          width={300}
-          height={300}
+          width={0}
+          height={0}
+          layout="responsive"
+          objectFit="contain"
         />
         <Image
           onClick={() => handleImageClick("/img/AnnaJordan-4.jpg")}
           src="/img/AnnaJordan-4.jpg"
           alt="Wedding"
-          width={300}
-          height={300}
+          width={0}
+          height={0}
+          layout="responsive"
+          objectFit="contain"
         />
         <Image
           onClick={() => handleImageClick("/img/FranklinKristin-1.jpg")}
           src="/img/FranklinKristin-1.jpg"
           alt="Wedding"
-          width={300}
-          height={300}
+          width={0}
+          height={0}
+          layout="responsive"
+          objectFit="contain"
         />
         <Image
           onClick={() => handleImageClick("/img/FranklinKristin-2.jpg")}
           src="/img/FranklinKristin-2.jpg"
           alt="Wedding"
-          width={300}
-          height={300}
+          width={0}
+          height={0}
+          layout="responsive"
+          objectFit="contain"
         />
         <Image
           onClick={() => handleImageClick("/img/FranklinKristin-3.jpg")}
           src="/img/FranklinKristin-3.jpg"
           alt="Wedding"
-          width={300}
-          height={300}
+          width={0}
+          height={0}
+          layout="responsive"
+          objectFit="contain"
         />
         <Image
           onClick={() => handleImageClick("/img/KatieDave-1.jpg")}
           src="/img/KatieDave-1.jpg"
           alt="Wedding"
-          width={300}
-          height={300}
+          width={0}
+          height={0}
+          layout="responsive"
+          objectFit="contain"
         />
         <Image
           onClick={() => handleImageClick("/img/KatieDave-2.jpg")}
           src="/img/KatieDave-2.jpg"
           alt="Wedding"
-          width={300}
-          height={300}
+          width={0}
+          height={0}
+          layout="responsive"
+          objectFit="contain"
         />
         <Image
           onClick={() => handleImageClick("/img/KatieDave-3.jpg")}
           src="/img/KatieDave-3.jpg"
           alt="Wedding"
-          width={300}
-          height={300}
+          width={0}
+          height={0}
+          layout="responsive"
+          objectFit="contain"
         />
         <Image
           onClick={() => handleImageClick("/img/KatieDave-4.jpg")}
           src="/img/KatieDave-4.jpg"
           alt="Wedding"
-          width={300}
-          height={300}
+          width={0}
+          height={0}
+          layout="responsive"
+          objectFit="contain"
         />
       </div>
       <ImageModal open={modalOpen}>
