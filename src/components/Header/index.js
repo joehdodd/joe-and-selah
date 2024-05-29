@@ -51,11 +51,14 @@ const Header = () => {
         <Link className="text-2xl" href="/">
           Home
         </Link>
-        <Link className="text-2xl" href="/about">
-          Info
+        <Link className="text-2xl" href="/weddings">
+          Weddings
         </Link>
         <Link className="text-2xl" href="/families">
           Families
+        </Link>
+        <Link className="text-2xl" href="/about">
+          Info
         </Link>
       </div>
     </header>
