@@ -12,8 +12,8 @@ const send = async (req: NextApiRequest, res: NextApiResponse) => {
 
   const { data, error } = await resend.emails.send({
     from: "Joe & Selah <info@joeandselah.co>",
-    to: ["info@joeandselah.co"],
-    cc: [email],
+    to: [email],
+    cc: ["info@joeandselah.co"],
     reply_to: [email],
     bcc: ["selahlynnn@gmail.com", "joehdodd@gmail.com"],
     subject: "Joe & Selah Contact",
