@@ -6,7 +6,7 @@ interface ContactEmailTemplateProps {
   message: string;
 }
 
-export const ContactEmailTemplate: React.FC<EmailTemplateProps> = ({
+export const ContactEmailTemplate: React.FC<ContactEmailTemplateProps> = ({
   firstName,
   email,
   message,

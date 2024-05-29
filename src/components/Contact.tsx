@@ -9,7 +9,9 @@ const Contact = () => {
   const [sending, setSending] = React.useState(false);
   const [sent, setSent] = React.useState<null | boolean>(null);
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
+  ) => {
     setFormState({
       ...formState,
       [e.target.name]: e.target.value,
