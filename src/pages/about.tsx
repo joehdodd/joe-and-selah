@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import PageLayout from "@/components/PageLayout";
 import Image from "next/image";
 import React from "react";
@@ -13,19 +14,26 @@ const About = () => {
           We&apos;re glad that you found us!
         </p>
         <hr />
-        <div className="pt-8 grid md:grid-cols-2 gap-8">
+        <div className="pt-8 mb-8 grid md:grid-cols-2 gap-8">
           <div>
             <p className="text-2xl mb-2">
               We are Chattanooga photographers specializing in intimate,
               documentary style photography for engagements, weddings and
               families.
             </p>
+            <h2 className="text-3xl italic">Weddings</h2>
             <p className="text-2xl mb-2">
               Interested in choosing us as your Chattanooga wedding
-              photographers? Send an email to{" "}
-              <a href="mailto:info@joeandselah.co">info@joeandselah.co</a> for
-              information on packages and prices. Our packages currently start
-              at $1,600.
+              photographers? Reach out via the contact form below for
+              information on packages and prices. Our wedding photography
+              packages currently start at $1,800.
+            </p>
+            <h2 className="text-3xl italic">Families</h2>
+            <p className="text-2xl mb-2">
+              Interested in choosing us as your Chattanooga family
+              photographers? Reach out via the contact form below for
+              information on packages and prices. Our family photography
+              packages currently start at $200.
             </p>
           </div>
           <Image
@@ -37,6 +45,7 @@ const About = () => {
             objectFit="contain"
           />
         </div>
+        <Contact />
       </div>
     </PageLayout>
   );
