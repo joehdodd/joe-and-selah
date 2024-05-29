@@ -40,7 +40,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="p-2 md:p-48">
+    <div className="p-2 md:pl-48 md:pr-48">
       <div className="p-4 border border-slate-300 rounded">
         <h4 className="text-3xl">Contact Us</h4>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4 text-2xl">
