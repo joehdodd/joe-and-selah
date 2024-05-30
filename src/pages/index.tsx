@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import ImageGrid from "../components/ImageGrid";
 import Contact from "@/components/Contact";
+import SEO from "@/components/SEO";
 
 export default function Home() {
   const imageSources = [
@@ -15,6 +16,11 @@ export default function Home() {
   ];
   return (
     <>
+      <SEO
+        title="Chattanooga Wedding & Family Photographers | Joe & Selah"
+        description="Joe & selah are photographers in Chattanooga offering engagement, wedding and family photo services."
+        image="/img/AnnaJordan-1.jpg"
+      />
       <Header />
       <Hero />
       <div className="p-8">

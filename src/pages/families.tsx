@@ -1,6 +1,7 @@
+import React from "react";
 import ImageGrid from "@/components/ImageGrid";
 import PageLayout from "@/components/PageLayout";
-import React from "react";
+import SEO from "@/components/SEO";
 
 const Families = () => {
   const imageSources = [
@@ -10,11 +11,18 @@ const Families = () => {
     "/img/Sparks-1.jpg",
   ];
   return (
-    <PageLayout>
-      <div className="p-2 md:p-4">
-        <ImageGrid imageSources={imageSources} />
-      </div>
-    </PageLayout>
+    <>
+      <SEO
+        title="Chattanooga Family Photographers | Joe & Selah"
+        description="Joe & Selah are family photographers in Chattanooga, TN offering documentary-style family photography services."
+        image="/img/Sparks-1.jpg"
+      />
+      <PageLayout>
+        <div className="p-2 md:p-4">
+          <ImageGrid imageSources={imageSources} />
+        </div>
+      </PageLayout>
+    </>
   );
 };
 

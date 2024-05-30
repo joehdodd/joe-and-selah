@@ -1,6 +1,7 @@
+import React from "react";
+import SEO from "@/components/SEO";
 import ImageGrid from "@/components/ImageGrid";
 import PageLayout from "@/components/PageLayout";
-import React from "react";
 
 const Weddings = () => {
   const imageSources = [
@@ -11,11 +12,18 @@ const Weddings = () => {
     "/img/KatieDave-2.jpg",
   ];
   return (
-    <PageLayout>
-      <div className="p-2 md:p-4">
-        <ImageGrid imageSources={imageSources} />
-      </div>
-    </PageLayout>
+    <>
+      <SEO
+        title="Chattanooga Wedding Photograhers | Joe & Selah"
+        description="Joe & selah are wedding photographers in Chattanooga, TN offering documentary-style engagement and wedding photography."
+        image="/img/AnnaJordan-3.jpg"
+      />
+      <PageLayout>
+        <div className="p-2 md:p-4">
+          <ImageGrid imageSources={imageSources} />
+        </div>
+      </PageLayout>
+    </>
   );
 };
 
