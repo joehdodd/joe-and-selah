@@ -21,7 +21,7 @@ const send = async (req: NextApiRequest, res: NextApiResponse) => {
     text: "Hello!",
   });
 
-  if (error) {
+  if (error || !data) {
     return res.status(400).json(error);
   }
 
