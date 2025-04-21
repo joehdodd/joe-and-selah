@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Chattanooga Wedding & Family Photographers | Joe & Selah"
-        description="Joe & selah are photographers in Chattanooga offering engagement, wedding and family photo services."
+        title="Chattanooga Wedding Photographers | Joe & Selah"
+        description="Joe & selah are wedding photographers in Chattanooga offering engagement, wedding and family photo services."
         image="/img/AnnaJordan-1.jpg"
       />
       <Header />
