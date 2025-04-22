@@ -31,7 +31,7 @@ const Header = () => {
           <h1 className="text-4xl text-center md:text-left md:text-2xl">
             Joe & Selah{" "}
             <span className="hidden md:inline">
-              | Chattanooga Documentary Photographers
+              | Chattanooga Wedding Photographers
             </span>
           </h1>
         </Link>

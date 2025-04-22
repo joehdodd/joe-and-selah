@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "hero":
-          "linear-gradient(to right bottom, rgba(0,0, 0, 0.4), rgba(0,0, 0, 0.4)), url('/img/AnnaJoel-Hero.jpg')",
+          "linear-gradient(to right bottom, rgba(0,0, 0, 0.4), rgba(0,0, 0, 0.4)), url('/img/KatieDave-3.jpg')",
       },
     },
   },
