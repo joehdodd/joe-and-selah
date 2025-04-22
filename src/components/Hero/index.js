@@ -8,7 +8,7 @@ const Hero = () => {
               <h3 className="text-6xl">Joe &amp; Selah</h3>
               <hr />
             </div>
-            <h1 className="text-3xl">Chattanooga Documentary Photographers</h1>
+            <h1 className="text-3xl">Chattanooga Wedding Photographers</h1>
             <h3 className="text-2xl">
               Remember the day. As it happened.
             </h3>
